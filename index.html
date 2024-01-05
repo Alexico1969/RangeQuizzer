@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Range Function Quiz Tool</title>
+    <!-- Link to CSS file -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Range Function Quiz Tool</h1>
+    <br>
+    <p>If this is the range:</p>
+    <h2 id="rangeDisplay"></h2>
+    <p>Then what is the last number in this range?</p>
+    <h2><input type="number" id="userInput" placeholder="Enter the last number"></h2>
+    <button id="submit" onclick="checkAnswer()">Submit</button>
+    <h2 id="feedback"></h2>
+    <br>
+    <button id="next" onclick="nextQuestion()">Next Question</button>
+    <!-- Link to JavaScript file -->
+    <script src="range.js"></script>
+</body>
+</html>

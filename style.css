@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#rangeDisplay {
+    font-weight: bold;
+}
+
+#feedback {
+    color: green; /* or red for incorrect answers */
+}
+
+
+
+#userInput {
+    font-size: 20px; /* Adjust the size as needed */
+    padding: 10px; /* Adds space inside the input field */
+    width: 15%; /* Adjust the width as needed */
+    margin: 10px 0; /* Adds some space above and below the input field */
+}
+

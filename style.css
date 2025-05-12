@@ -32,3 +32,10 @@ button{
     margin: 10px 0; /* Adds some space above and below the input field */
 }
 
+.range{
+    font-size: 40px;
+    font-weight: bold;
+    color: #1C4F10;
+    margin: 20px 0;
+    text-align: center;
+}

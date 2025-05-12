@@ -8,8 +8,18 @@
 <body>
     <h1>Range Function Quiz Tool</h1>
     <br>
+      <div>
+        <label><input type="checkbox" id="toggle1Param" checked> 1 Parameter</label>
+        <label><input type="checkbox" id="toggle2Params"> 2 Parameters</label>
+        <label><input type="checkbox" id="toggle3Params"> 3 Parameters</label>
+        <br><br>
+        <label><input type="checkbox" id="toggleNegative"> Allow Negative Numbers</label>
+        <label><input type="checkbox" id="toggleNegativeSteps"> Allow Negative Steps</label>
+    </div>
+    <br>
     <p>If this is the range:</p>
-    <h2 id="rangeDisplay"></h2>
+  
+    <div id="rangeDisplay" class="range"></div>
     <p>Then what is the last number in this range?</p>
     <h2><input type="number" id="userInput" placeholder="Enter the last number"></h2>
     <button id="submit" onclick="checkAnswer()">Submit</button>
